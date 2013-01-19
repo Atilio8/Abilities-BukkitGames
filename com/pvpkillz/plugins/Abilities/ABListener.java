@@ -1,6 +1,5 @@
 package com.pvpkillz.plugins.Abilities;
 
-import java.util.ArrayList;
 import java.util.Random;
 import java.util.logging.Logger;
 
@@ -33,9 +32,6 @@ public class ABListener extends JavaPlugin implements Listener{
 	Logger log = Logger.getLogger("Minecraft");
 
 	private Main plugin;
-
-public ArrayList<Player> HitterList = new ArrayList<Player>();
-public ArrayList<Player> MilkManList = new ArrayList<Player>();
 
 public ABListener(Main mainclass) {
 
