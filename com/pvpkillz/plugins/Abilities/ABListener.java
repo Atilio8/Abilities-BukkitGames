@@ -110,7 +110,7 @@ public void onEntityDamageByEntity(EntityDamageByEntityEvent event) {
     		int Chance = plugin.config.readInt("Abilities.100.Chance");
     		int Amount = plugin.config.readInt("Abilities.100.Amount");
     		double randomValue = 0 + (100 - 0) * r.nextDouble();
-    		if ((Chance <= randomValue) && (broken.getType() == Material.IRON_ORE)){
+    		if ((Chance >= randomValue) && (broken.getType() == Material.IRON_ORE)){
     		block.getWorld().dropItemNaturally(centerOfBlock, new ItemStack(Material.IRON_INGOT, Amount));
     		}
     		else {
