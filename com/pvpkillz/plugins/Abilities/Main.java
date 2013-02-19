@@ -32,7 +32,7 @@ public class Main extends JavaPlugin{
 		
 		BGChat.setAbilityDesc(100, config.readString("Abilities.100.Desc"));
 		BGChat.setAbilityDesc(101, config.readString("Abilities.101.Desc"));
-		BGChat.setAbilityDesc(101, config.readString("Abilities.102.Desc"));
+		BGChat.setAbilityDesc(102, config.readString("Abilities.102.Desc"));
 		
 	}
 }
